@@ -3,14 +3,14 @@
 6.6 bis 27.6
 
 ## Grob-Planung
+![image](https://github.com/user-attachments/assets/66a45af1-7ea6-4996-9fb5-bfa6ef66f116)
 
-> Fügen Sie hier ein Foto Ihres handgezeichnete Entwurfes ein, wie Ihre Start-Seite aussehen könnte.
+![image](https://github.com/user-attachments/assets/5ce2fe2d-1cc6-40ee-8f7b-7e8591a8adf0)
+
 
 ## 6.6
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, Ihr angepasstes `index.html` und eine Datei mit Ihren Texten hochzuladen.
+Heute habe ich meine Startseite mit HTML und CSS und auch schon einem Bild programmiert. Ich habe auch eine Sidebar mit Javascript programmiert, die man ausklappen kann und von dort kommt man auf die Seite "Über mich", "Schulbildung" und auch wieder zur Startseite. Auf jeder Seite hat es die Sidebar, einen Header mit dem Titel, 3 sections und einen Footer. Alle in verschiedenen Farben. Ich habe auch schon einen Steckbrief gemacht, den ich einfach von meiner alten Bewerbung genommen und überarbeitet habe. Ich werde aber wahrscheindlich nicht alle Infos verwenden.
 
 ## 13.6
 
