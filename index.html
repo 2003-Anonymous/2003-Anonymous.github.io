@@ -3,33 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meine persönliche Startseite</title>
+  <title>Home</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Willkommen auf meiner Seite!</h1>
-    <p>Ich bin Joshua, angehender Informatiker EFZ.</p>
-  </header>
+  <section>
+    <header id="header">
+      <div id="titel">Willkommen</div>
+    </header>
+  </section>
 
-  <main>
-    <section>
-      <h2>Über mich</h2>
-      <p>Ich interessiere mich für Webentwicklung, Games und Technik.</p>
+  <div id="main">
+    <img src="IMG_9553.JPG" id="pic" alt="Joshua Sommerhalder">
+
+    <section class="section_1">
+        <p>Text</p>
     </section>
-
-    <section>
-      <h2>Meine Lieblingslinks</h2>
-      <ul>
-        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
-        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
-        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
-      </ul>
+    <section class="section_1">
+        <p>Text</p>
     </section>
-  </main>
+    <section class="section_1">
+        <p>Text</p>
+    </section>
+  </div>
 
+    <div id="sidebar">
+      <button id="toggleBtn">☰</button>
+      <div id="menu">
+        <h2>Menü</h2>
+        <a href="index.html">Home</a>
+        <a href="index_2.html">Über mich</a>
+        <a href="index_3.html">Schulbildung</a>
+        <a href="#">Programmieren</a>
+      </div>
+                    
+    </div>     
   <footer>
-    <p>© 2025 Nico Čolić</p>
+    <div>Hallo</div>
   </footer>
+      <script src="script.js"></script>
 </body>
 </html>
