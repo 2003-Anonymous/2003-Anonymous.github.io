@@ -14,10 +14,10 @@ Heute habe ich meine Startseite mit HTML und CSS und auch schon einem Bild progr
 
 ## 13.6
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Seiten zu allen Links in der Sidebar erstellen
+- [ ] Text für die Startseite ausarbeiten
+- [ ] Layout der anderen Seiten noch anpassen
+- [ ] Text für diese Seiten ausarbeiten
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
