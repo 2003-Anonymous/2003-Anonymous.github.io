@@ -19,16 +19,14 @@ Heute habe ich meine Startseite mit HTML und CSS und auch schon einem Bild progr
 - [ ] Layout der anderen Seiten noch anpassen
 - [ ] Text für diese Seiten ausarbeiten
 
-✍️ Heute habe ich... (50-100 Wörter)
+Ich habe heute das Design für die Homeseite fertig gemacht. Ich habe viele Glowing-Effekte hinzugefügt, ein Bild und auch einen Fülltext auf einer Holokarte, die leuchtet und grösser wird, wenn man darüberhovert. Dann habe ich noch die Sidebar fertig gemacht, welche auch die Farben umkehrt, wenn man darüberhovert und leuchtet. Dann habe ich noch herausgefunden, dass man sehr einfach 3D-Modelle einfügen kann. 
 
-☝️ Vergessen Sie nicht, Ihre angepasste Website auf github hochzuladen
 
 ## 20.7
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Die restlichen Seiten auf das Farbschema anpassem
+- [ ] 3D Modelle einfügen
+- [ ] Text auf der Homeseite einfügen
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
