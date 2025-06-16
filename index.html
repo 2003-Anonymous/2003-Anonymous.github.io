@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
   <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
 </head>
 <body>
   <section>
@@ -16,31 +18,37 @@
   <div id="main">
     <img src="IMG_9553.JPG" id="pic" alt="Joshua Sommerhalder">
 
-    <section class="section_1">
-        <p>Text</p>
-    </section>
-    <section class="section_1">
-        <p>Text</p>
-    </section>
-    <section class="section_1">
-        <p>Text</p>
-    </section>
+    <div class="holo-card">
+      <h3>Über mich</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quis asperiores, facere saepe quam officiis laborum tempora quasi error ipsa quaerat omnis aperiam fugiat deleniti quod sint qui voluptates ab voluptatem maiores tenetur iure magnam totam alias. Amet, perspiciatis, hic nostrum nam quam laudantium perferendis dolorem rerum tenetur totam facere quibusdam nobis, quos eveniet provident. Iste ipsum quisquam ipsa eligendi reiciendis suscipit, enim ullam pariatur quasi. Magni, rerum numquam vel libero nostrum porro aliquid distinctio quo molestias labore amet sed facere cum ab voluptate ea animi quidem laborum harum, maiores tempora. Accusantium impedit aliquid necessitatibus quaerat ad, adipisci nihil repudiandae.</p>
+    </div>
+    
+    <model-viewer src="pistol.glb"
+              alt="3D Modell"
+              auto-rotate
+              camera-controls
+              shadow-intensity="1"
+              style="width: 500px; height: 400px;">
+</model-viewer>
+
   </div>
 
-    <div id="sidebar">
+    <nav id="sidebar">
       <button id="toggleBtn">☰</button>
-      <div id="menu">
-        <h2>Menü</h2>
-        <a href="index.html">Home</a>
-        <a href="index_2.html">Über mich</a>
-        <a href="index_3.html">Schulbildung</a>
-        <a href="#">Programmieren</a>
+      <div class="menu">
+        <h2 id="sidebar_title">Menü</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index_2.html">Über mich</a></li>
+          <li><a href="index_3.html">Schulbildung</a></li>
+          <li><a href="#">Programmieren</a></li>
+        </ul>  
       </div>
-                    
-    </div>     
+        
+    </nav>     
   <footer>
     <div>Hallo</div>
   </footer>
-      <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
