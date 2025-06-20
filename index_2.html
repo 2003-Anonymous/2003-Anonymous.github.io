@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="style_2.css">
         <title>Über mich</title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     </head>
     <body>
         <section>
@@ -12,9 +13,21 @@
         </section>
         
         <div id="main">
+            <div id="content">
+                <model-viewer src="hologram_projector.glb"  id="holo" 
+                    alt="Ein 3D-Modell"
+                    auto-rotate
+                    camera-controls
+                    disable-pan
+                    interaction-prompt="none"
+                    min-camera-orbit="auto 90deg auto"
+                    max-camera-orbit="auto 90deg auto"
+                    camera-orbit="180deg 90deg auto"
+                    >
+                </model-viewer>
 
-            <div class="parallax" id="para">
-                <div id="para_box">
+
+                <div id="holo-card">
                     <div id="para_title"></div>
 
                     <ul id="list_1">
@@ -38,23 +51,26 @@
                         <p class="list_2">No Data</p>
                         <p class="list_2">No Data</p>
                     </ul>
-
                 </div>
             </div>
-
+                
         </div>
 
-        <div id="sidebar">
+        <nav id="sidebar">
             <button id="toggleBtn">☰</button>
-            <div id="menu">
-                <h2>Menü</h2>
-                <a href="index.html">Home</a>
-                <a href="index_2.html">Über mich</a>
-                <a href="index_3.html">Schulbildung</a>
-                <a href="#">Programmieren</a>
+            <div class="menu">
+                <h2 id="sidebar_title">Menü</h2>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index_2.html">Über mich</a></li>
+                <li><a href="index_3.html">Schulbildung</a></li>
+                <li><a href="#">Programmieren</a></li>
+                </ul>  
             </div>
-                        
-        </div>     
+        
+        </nav>
+
+
         <footer>
             <div>Hallo</div>
         </footer>

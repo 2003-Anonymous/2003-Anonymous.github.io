@@ -1,4 +1,4 @@
-* {
+:root{
   --my-dark: rgb(2, 39, 30);
   --my-light: rgb(11, 188, 147);
   --my-shadow: 0 0 20px 5px var(--my-light);
@@ -54,7 +54,7 @@ body {
   top: 75px;
   right: 0;
   background-color: var(--my-dark);
-  overflow: visible; /* geändert für sichtbaren Schatten */
+  overflow: visible;
   z-index: 1000;
   border: 1px solid var(--my-light);
   transition: background-color 0.3s ease, width 0.3s ease;
@@ -146,12 +146,17 @@ body {
 }
 
 #pic {
-  width: 180px;
+  width: 200px;
   height: 240px;
   margin: 100px;
   border: 5px solid var(--my-light);
   box-shadow: var(--my-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+#pic:hover{
+  transform: scale(1.03);
+  box-shadow: 0 0 40px var(--my-light);
 }
 
 .holo-card {
