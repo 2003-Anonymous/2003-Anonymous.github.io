@@ -1,48 +1,123 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua • Software Developer</title>
   
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section>
-    <header id="header">
-      <div id="titel">Willkommen</div>
-    </header>
+
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo"><span class="highlight">Joshua Sommerhalder</span></h1>
+      <div class="nav-links">
+        <a href="#about">Über mich</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projekte</a>
+        <a href="#cv">Lebenslauf</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="me">
+    <div class="container me-content">
+      <div class="me-text">
+        <h2 class="me-title">IMS-Schüler im zweiten Jahr</h2>
+        <p class="me-subtitle">Applikationsentwickler</p>
+        <p class="me-description">
+          Ich entwickle moderne, skalierbare und nutzerzentrierte Webanwendungen mit Leidenschaft für cleanen Code und exzellente User Experience.
+        </p>
+        <div class="me-buttons">
+          <a href="#projects" class="btn primary">Meine Projekte</a>
+          <a href="#cv" class="btn secondary">Lebenslauf ansehen</a>
+        </div>
+      </div>
+      
+      <div class="me-image-wrapper">
+        <div class="me-image-frame">
+          <img src="https://via.placeholder.com/600x600" alt="Joshua" class="me-image">
+        </div>
+      </div>
+    </div>
   </section>
 
-  <div id="main">
-    <img src="Images/Anonymous.jpg" id="pic" alt="Anonymous">
 
-    <div class="holo-card">
-      <h3>Anonymous</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quis asperiores, facere saepe quam officiis laborum tempora quasi error ipsa quaerat omnis aperiam fugiat deleniti quod sint qui voluptates ab voluptatem maiores tenetur iure magnam totam alias. Amet, perspiciatis, hic nostrum nam quam laudantium perferendis dolorem rerum tenetur totam facere quibusdam nobis, quos eveniet provident. Iste ipsum quisquam ipsa eligendi reiciendis suscipit, enim ullam pariatur quasi. Magni, rerum numquam vel libero nostrum porro aliquid distinctio quo molestias labore amet sed facere cum ab voluptate ea animi quidem laborum harum, maiores tempora. Accusantium impedit aliquid necessitatibus quaerat ad, adipisci nihil repudiandae.</p>
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Über mich</h2>
+      <p class="about-text">
+        Zurzeit bin ich im zweiten Jahr der IMS und ich habe bereits viel über Informatik gelernt. Meine Lieblingssprachen sind Javascript fürs Frontend und C# fürs Backend.
+      </p>
     </div>
-    
+  </section>
 
 
-  </div>
-
-    <nav id="sidebar">
-      <button id="toggleBtn">☰</button>
-      <div class="menu">
-        <h2 id="sidebar_title">Menü</h2>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index_2.html">Über mich</a></li>
-          <li><a href="index_3.html">Schulbildung</a></li>
-          <li><a href="#">Programmieren</a></li>
-        </ul>  
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title">Technologie-Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>JavaScript • TypeScript • HTML • CSS</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Node.js • .NET</p>
+        </div>
+        <div class="skill-card">
+          <h3>Datenbanken</h3>
+          <p>MySQL • MongoDB • SQLight</p>
+        </div>
+        <div class="skill-card">
+          <h3>DevOps & Cloud</h3>
+          <p>Docker • AWS • Azure</p>
+        </div>
       </div>
-        
-    </nav>     
-  <footer>
-    <div>Hallo</div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Ausgewählte Projekte</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <h3>MissileSimulator</h3>
+            <p>Kurze Beschreibung des Projekts und der verwendeten Technologien.</p>
+            <a href="#" class="project-link">Zum Projekt <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv" class="section cv-section">
+    <div class="container">
+      <h2 class="section-title">Lebenslauf</h2>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title">Kontakt</h2>
+      <p class="contact-text">Ich bin derzeit offen für neue Herausforderungen und spannende Projekte.</p>
+      <a href="mailto:joshua.sommerhalder@icloud.com" class="btn primary">E-Mail senden</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      © 2026 Joshua • Software Developer
+    </div>
   </footer>
-    <script src="script.js"></script>
+
 </body>
 </html>
